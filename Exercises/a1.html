@@ -3,15 +3,20 @@
   <title>Haha</title>
   <link rel="stylesheet" type="text/css" href="ExerciseStyle.css">
   <script>
-   function print(num) {
-     var laught = "Haha"
-    return laught * num;
-}
+   function laught() {
+    var text = "Haha";
+  	var i = 1;
+     while (i < 20){
+    	text += text;
+    	i++;
+        }
+    return text;
+	}
   </script>
 </head>
 <body>
   <script>
-    document.print(print(20));
+    document.print(laught());
   </script>
   <p><a href="../index.html">Home</a></p>
 </body>
