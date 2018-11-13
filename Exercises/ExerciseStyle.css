@@ -1,4 +1,4 @@
- p { 
+ p {
   font-size: 14;
   font-family: "arial";
   color: black;
@@ -12,5 +12,5 @@ h2 {
   color: black;
 }
 body {
-  background-color: 7FFFD4;
+  background-color: #7FFFD4;
 }
