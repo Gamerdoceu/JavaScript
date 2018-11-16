@@ -4,14 +4,24 @@
   <title>Input and Output</title>
   <link rel="stylesheet" type="text/css" href="ExerciseStyle.css">
   <script>
-  
+  function start(){
+
+  var player = document.getElementById('name').value;
+
+  document.getElementById('game').innerHTML = "Your name is "+player;
+}
   </script>
 </head>
 <body>
   <h2>Inoputs and Outputs</h2>
   <h4>To participate, please write your name below:</h4>
   
-  <input type="text">
+  <input type="text" id="name">
+  <button onclick="start()">Game ON!!!</button>
+  
+  <div id="game">
+    
+  </div>
   
   <p><a href="../index.html">Home</a></p>
 </body>
